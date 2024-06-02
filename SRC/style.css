@@ -28,16 +28,27 @@ body{
 
 .mainheader{
     height:100%;
+<<<<<<< HEAD
     background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat; 
     position: fixed;
+=======
+    background-size: cover;
+    background-repeat: no-repeat; 
+    position: relative;
+    margin-top: 25px;
+>>>>>>> 999d9c3b31cae4ba2db36903a88b51e72436dd08
 }
 
 nav{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     background-color: #Ff9933;
+=======
+    /* background-color: #063268; */
+>>>>>>> 999d9c3b31cae4ba2db36903a88b51e72436dd08
     align-items: center;
     height: 80px;
     padding: 0 1%;
@@ -46,6 +57,10 @@ nav{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
+=======
+    border: 2px solid white;
+>>>>>>> 999d9c3b31cae4ba2db36903a88b51e72436dd08
     border-radius: 10px;
 }
 .menu li{
@@ -83,11 +98,28 @@ nav ul li:hover{
 }
 
 
+<<<<<<< HEAD
 
+=======
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color:skyblue; */
+    background-image: url(/our-website/SRC/OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+>>>>>>> 999d9c3b31cae4ba2db36903a88b51e72436dd08
 .logo,.logo img{
     height:70px;
     width: 70px;
     border-radius: 70px;
+}
+nav h1{
+    margin-left: 20px;
+    color: white;
 }
 
 #cname{
@@ -95,9 +127,14 @@ nav ul li:hover{
     justify-content: center;
     font-size: large;
     padding: 15px;
+<<<<<<< HEAD
     color: red;
 
+=======
+    color: white;
+>>>>>>> 999d9c3b31cae4ba2db36903a88b51e72436dd08
 }
+
 @media (min-width:300px) and (max-width:700px) {
     body{
         background-color: red;
