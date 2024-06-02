@@ -21,7 +21,7 @@
 
 .mainheader{
     height:100%;
-    background-color: aqua;
+    /* background-color: aqua; */
     background-size: cover;
     background-repeat: no-repeat; 
     position: relative;
@@ -31,7 +31,7 @@ nav{
     /* background-color:bisque; */
     display: flex;
     justify-content: space-between;
-    background-color: #063268;
+    /* background-color: #063268; */
     align-items: center;
     height: 80px;
     padding: 0 1%;
@@ -40,7 +40,7 @@ nav{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    /* border: solid; */
+    border: 2px solid white;
     border-radius: 10px;
 }
 .menu li{
@@ -87,7 +87,10 @@ body{
     padding: 0;
     height: 100%;
     width: 100%;
-    background-color:skyblue;
+    /* background-color:skyblue; */
+    background-image: url(/our-website/SRC/OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .logo,.logo img{
     height:70px;
@@ -100,8 +103,9 @@ body{
     justify-content: center;
     font-size: large;
     padding: 15px;
-
+    color: white;
 }
+
 @media (min-width:300px) and (max-width:700px) {
     body{
         /* background-color: red; */
