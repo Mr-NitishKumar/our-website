@@ -18,20 +18,26 @@
     --primery-color: #263D5A;
     --card-border: 2px solid rgba(255, 255, 255, 1); 
 }
+body{
+    background-color: rgb(1, 9, 32);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
 
 .mainheader{
     height:100%;
-    background-color: aqua;
+    background-color: transparent;
     background-size: cover;
     background-repeat: no-repeat; 
-    position: relative;
+    position: fixed;
 }
 
 nav{
-    /* background-color:bisque; */
     display: flex;
     justify-content: space-between;
-    background-color: #063268;
+    background-color: #Ff9933;
     align-items: center;
     height: 80px;
     padding: 0 1%;
@@ -40,17 +46,15 @@ nav{
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    /* border: solid; */
     border-radius: 10px;
 }
 .menu li{
- /* border: solid; */
  border-radius: 10px;
- /* border-bottom-left-radius: 15px;
- border-top-right-radius: 15px; */
  padding: 0.2em; 
- /* background-color: rgb(129, 129, 245); */
  background-color: transparent;
+}
+nav h1{
+    margin-left: 20px;
 }
 
 nav ul {
@@ -70,10 +74,7 @@ nav ul li a {
 }
 
 nav ul li:hover{
-    /* width: 100%; */
-    /* height: 50px; */
     background-color: red;
-    /* border:solid rgb(0, 119, 255); */
     transition-duration: 1000ms;
 }
 
@@ -82,13 +83,7 @@ nav ul li:hover{
 }
 
 
-body{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    background-color:skyblue;
-}
+
 .logo,.logo img{
     height:70px;
     width: 70px;
@@ -100,10 +95,12 @@ body{
     justify-content: center;
     font-size: large;
     padding: 15px;
+    color: red;
 
 }
 @media (min-width:300px) and (max-width:700px) {
     body{
-        /* background-color: red; */
+        background-color: red;
+
     }
 }
